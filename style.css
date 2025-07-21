@@ -1,0 +1,296 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.bottom-container {
+    background-color:black;
+    padding: 40px 0 40px;
+    margin-top: 100px;
+    text-align: center;
+  }
+.copyright{
+    color:grey;
+    font-size: 0.75rem;
+    padding: 20px 0;
+    margin-top: -5px;
+    font-family: 'alata',sans-serif;
+}
+p{
+    line-height: 2;
+    text-align: center;
+    margin: 20px;
+}
+ a{
+  margin: 40px 20px;
+
+
+  
+  }
+  .contact-me{
+    text-align: center;
+    color: whitesmoke;
+    margin-top: -50px;
+  }
+  .contact-message {
+    width: 44%;
+    margin: 20px auto 60px;
+    font-family: 'alata', sans-serif;
+    opacity: 0.75;
+  }
+  .dot-grid{
+    width: 80%; /* Reduce width to 80% of the parent element */
+    max-width: 915px; /* Optional: Set a maximum width */
+    margin: 20px auto; /* Center horizontally */
+    border-radius: 10px;
+    height: auto;
+    background-color:#162114;
+    background-image: radial-gradient(circle, black 2px, transparent 2px);
+    background-size: 50px 50px; /* Adjust dot spacing */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.contact-me > h2{
+  text-align: center;
+  font-size: 2rem;
+  padding: 0;
+  font-family: 'alata', sans-serif;
+  margin-top: 150px;
+  margin-bottom: -100px;
+  opacity: 0.75;
+  padding-top: 50px;
+}
+.contact-me >h3{
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 150px;
+  font-family: 'alata', sans-serif;
+}
+.capstone-projects > h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50PX;
+  font-family: 'alata',sans-serif;
+  font-weight: 300;
+  opacity: 0.75;
+  font-size:40px;
+}
+.carousel-container {
+  border: 40px solid whitesmoke;
+  border-radius: 10px;
+  max-width: 1060px; /* Set the desired width */
+  margin: 0 auto; /* Center the carousel */
+}
+
+.carousel-inner{
+  border-radius:10px;
+  max-width: 100%; /* Ensure images fit within the container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.card-container{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: center;
+  border-color: #333;
+  border-width: 10px;
+}
+.btn{
+  margin: 0;
+  opacity: 0.85;
+}
+.card-container .row {
+  gap: 50px !important;
+}
+.custom-border {
+  border: 2px solid whitesmoke !important;
+}
+.card-body{
+  background-color:#FAFAFA;
+}
+.card-text{
+  opacity: 0.75;
+}
+.card-title{
+  opacity: 0.95;
+}
+.grid-container {
+  display: grid;
+  margin-top: 50px;
+  grid-template-columns: 1fr; /* Two equal columns */
+  gap: 10px; /* Increased space between items */
+  padding: 20px; /* Adequate padding for spacing */
+  width: 80%; /* Keep width consistent */
+  height: auto; /* Allow height to adjust dynamically to content */
+  margin: 50px auto; /* Center the grid horizontally */
+  box-sizing: border-box; /* Ensure padding is included in height/width calculations */
+  overflow: hidden; /* Prevent overflow from grid items */
+}
+.grid-item {
+  padding: 20px;
+  text-align:justify;
+  border-radius: 5px;
+  /* Responsive styling for smaller screens */
+  @media (max-width: 600px) {
+    .grid-container {
+        grid-template-columns: 1fr; /* Single column layout */
+    }
+}
+  background-color:whitesmoke;
+  border-radius: 10px;
+}
+.grid-item > p{
+  text-align:justify;
+  font-size: 1rem;
+  margin-top: 90px;
+  font-family: 'alata', sans-serif;
+  font-weight:300;
+  opacity: 0.75; 
+  color: #333;
+}
+.grid-item > h2{
+  text-align: justify;
+  margin-top: 30px;
+  margin-left: 20px;
+  font-size: 1.5rem;
+  margin-bottom: -70px;
+  font-family: 'alata', sans-serif;
+  font-weight: 300;
+  opacity: 0.75;
+}
+.skills{
+  display: flex;
+  font-size: 1.5rem;
+  margin-bottom: -50px;
+  align-items: center;
+  justify-content: center;
+}
+.skills >h1{
+  margin-bottom: 50px;
+  font-family: 'alata',sans-serif;
+  font-weight: 300;
+  opacity: 0.75;
+  font-size:40px;
+}
+.about-container{
+  margin-bottom: 100px;
+  text-align: center;
+}
+.profile img {
+  width: 200px; /* Fixed width */
+  height: 200px; /* Fixed height */
+  border-radius: 50%; /* Makes the image circular (optional) */
+  object-fit: cover; /* Ensures the image fits without distortion */
+  margin-top: 80px;
+}
+.greeting{
+  font-family: 'myfontl',sans-serif;
+  margin-top: 50px;
+}
+.intro > p {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'alata', sans-serif;
+  font-weight:300;
+  opacity: 0.75; /* Makes it look lighter */
+  color: #333;
+}
+.title{
+  background-color: black;
+}
+.top-container {
+  position: relative;
+  overflow: hidden;
+  background-color:black;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.background-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background: url('./5773481.jpg') no-repeat center center;
+  background-size: contain; /* Ensures the image fits without zooming or cropping */
+  background-size: cover;
+ /* Gradient Opacity Mask */
+ -webkit-mask-image: linear-gradient(to bottom, 
+        rgba(0, 0, 0, 0) 0%,         /* Top: Fully transparent */
+        rgba(0, 0, 0, 0.05) 20%,     /* Top transition: Very slight transparency */
+        rgba(0, 0, 0, 0.2) 50%,      /* Middle: More transparent */
+        rgba(0, 0, 0, 1) 80%         /* Bottom: Fully visible */
+      );
+      mask-image: linear-gradient(to bottom, 
+        rgba(0, 0, 0, 0) 0%, 
+        rgba(0, 0, 0, 0.05) 20%, 
+        rgba(0, 0, 0, 0.2) 50%, 
+        rgba(0, 0, 0, 1) 80%
+      );
+      -webkit-mask-size: cover;
+      mask-size: cover;
+}
+.title-text {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color:grey; /* Adjust color for contrast */
+  font-family: 'myfontR', sans-serif; /* Optional: Set a font */
+}
+.title-text >h2{
+  margin: 0px;
+  padding: 0px;
+  font-size: 2.5rem;
+}
+.title-text >p{
+  font-size: 1.5rem;
+}
+
+@font-face {
+  font-family: 'myfont'; /* Name of the font */
+  src: url('./myfont.woff.otf');
+  font-weight: normal; /* Optional: Specify font weight */
+  font-style: normal;  /* Optional: Specify font style */
+}
+@font-face {
+  font-family: 'myfontR'; /* Name of the font */
+  src: url('./myfontR.woff1.otf');
+  font-weight: normal; /* Optional: Specify font weight */
+  font-style: normal;  /* Optional: Specify font style */
+}
+@font-face {
+  font-family: 'myfontl'; /* Name of the font */
+  src: url('./myfontL.woff.otf');
+  font-weight: normal; /* Optional: Specify font weight */
+  font-style: normal;  /* Optional: Specify font style */
+}
+  /* Change the color of the next button */
+  .carousel-control-next-icon {
+    background-color:grey; /* Change the color to your preference */
+    border-radius: 50%; /* Optional: make it rounded */
+    width: 3rem; /* Adjust size */
+    height: 3rem; /* Adjust size */
+    margin-right: 50px;
+  }
+
+  /* Change the color of the previous button */
+  .carousel-control-prev-icon {
+    background-color: grey; /* Change the color to your preference */
+    border-radius: 50%; /* Optional: make it rounded */
+    width: 3rem; /* Adjust size */
+    height:3rem; /* Adjust size */
+    margin-left: 50px;
+  }
